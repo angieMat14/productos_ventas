@@ -1,0 +1,23 @@
+{
+  "name": "productos-graphql-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API GraphQL de productos con Express, Apollo Server y MongoDB Atlas",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "@as-integrations/express5": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "mongoose": "^8.19.0"
+  }
+}
